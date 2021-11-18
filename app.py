@@ -20,7 +20,8 @@ app.config['SECURITY_PASSWORD_SALT'] = 'dfdgsdfsadfasg'
 # app.config['SECURITY_CONFIRMABLE'] = True
 app.config['SECURITY_RECOVERABLE'] = True
 db = SQLAlchemy(app)
- 
+
+
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_SSL'] = True

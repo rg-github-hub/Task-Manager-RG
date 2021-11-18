@@ -9,5 +9,5 @@ with app.app_context():
     db.session.add(r)
     db.session.commit()
     user = User.query.all()
-    print(user)         
+    print(user)
 
